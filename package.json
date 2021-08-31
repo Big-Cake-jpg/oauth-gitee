@@ -1,15 +1,20 @@
 {
-  "name": "",
-  "title": "",
-  "version": "0.1.0",
-  "description": "",
-  "author": "",
-  "url": "",
-  "namespace": "",
+  "name": "oauth-gitee",
+  "title": "Blessing\\OAuth\\Gitee::general.title",
+  "version": "0.0.0",
+  "description": "Blessing\\OAuth\\Gitee::general.description",
+  "author": "Big_Cake",
+  "url": "https://github.com/Big-Cake-jpg",
+  "namespace": "Blessing\\OAuth\\Gitee",
   "require": {
-    "blessing-skin-server": "^5.0.0"
+    "blessing-skin-server": "^5|^6",
+    "oauth": "^1.0.0"
   },
   "enchants": {
-    "config": "Configuration"
+    "icon": {
+      "fa": "code-branch",
+      "faType": "fab",
+      "bg": "success"
+    }
   }
 }
